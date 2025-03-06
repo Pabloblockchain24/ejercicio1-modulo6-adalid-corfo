@@ -1,0 +1,42 @@
+@use "../abstracts/variables" as variables;
+
+
+.equipo-medico__container{
+    padding-inline: variables.$padding-inline-desktop-1820;
+}
+
+.equipo-medico__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__text{
+        text-align: center;
+        padding-inline: 5rem;
+    }
+}
+
+.doctor__imagen {
+    width: 150px;
+    height: 150px;
+}
+
+.doctors__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.doctors__filter {
+    font-size: 1rem;
+    margin-block: 2rem; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+

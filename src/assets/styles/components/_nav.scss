@@ -1,0 +1,39 @@
+@use "../themes/theme-adalid" as colors;
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding-block: 1rem;
+    margin-bottom: 2rem;
+    color: colors.$white;
+    background-color: colors.$primary-color-button;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            color: white;
+            padding: 1rem;
+
+            &:hover {
+                background-color: rgb(222, 226, 228);
+                color: colors.$primary-color-button;
+            }
+        }
+        button{
+            border: 1px solid white;
+            padding: 1rem;
+            margin-left: 2rem;
+            &:hover{
+                background-color: rgb(222, 226, 228);
+                color: colors.$primary-color-button;
+
+            }
+        }
+    }
+
+}

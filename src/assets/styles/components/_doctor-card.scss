@@ -1,0 +1,26 @@
+
+
+.doctor__imagen {
+    width: 150px;
+    height: 150px;
+}
+
+.profesionales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__doctor{
+    width: 20rem;
+    flex: 1 1 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    margin-block: 1rem;
+    border: 1px solid #ccc;
+    min-width: 20rem;  
+    max-width: 100%; 
+}

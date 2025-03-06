@@ -1,0 +1,61 @@
+@use "../themes/theme-adalid" as colors;
+
+button {
+  padding: 1rem;
+  background-color: colors.$primary-color-button;
+  color: colors.$white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: colors.$primary-color-button-hover;
+}
+
+button:disabled {
+  background-color: colors.$shadow-button-color;
+  cursor: not-allowed;
+}
+
+.reload__container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reload__button {
+  background-color: #9c9c9c;
+  color: colors.$white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-block: 1rem;
+  transition: background-color 0.3s ease;
+  align-self: center;
+
+
+  &:hover {
+    background-color: colors.$shadow-color;
+  }
+}
+.error__message{
+  color: red;
+}
+
+.btn-login{
+  background-color: colors.$tertiary-color;
+  color: colors.$white;
+  font-size: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-block: 1rem;
+  transition: background-color 0.3s ease;
+  align-self: center;
+
+  &:hover {
+    background-color: colors.$tertiary-color-hover;
+  }
+}

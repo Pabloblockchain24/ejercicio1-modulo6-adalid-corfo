@@ -1,0 +1,68 @@
+@use "../themes/theme-adalid" as colors;
+
+.appointments__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.appointments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 3rem;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 50%;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+  }
+  &:hover {
+    background-color: #cfcfcf;
+  }
+
+
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+}
+
+.admin__manager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-block: 2rem;
+
+  button {
+    border: 1px solid colors.$primary-color-button-hover;
+    flex: 1;
+  }
+
+}
+
+.appointments__buttons{
+  display: flex;
+  gap: 1rem;
+
+  button{
+    background-color: rgb(190, 190, 190);
+    border: 1px solid black;
+    color: black;
+  }
+}

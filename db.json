@@ -1,0 +1,241 @@
+{
+  "appointments": [
+    {
+      "id": "ed6a",
+      "patientName": "Juan Cardenas",
+      "selectedDoctor": "Dr. Juan Perez",
+      "appointmentDate": "2025-02-08",
+      "appointmentTime": "13:20",
+      "status": "pendiente"
+    },
+    {
+      "id": "3dc1",
+      "patientName": "Michelle marchant",
+      "selectedDoctor": "Dra. Maria Gonzalez",
+      "appointmentDate": "2025-02-10",
+      "appointmentTime": "03:15",
+      "status": "agendado"
+    },
+    {
+      "id": "21b0",
+      "patientName": "Raquel Paiva",
+      "selectedDoctor": "Dra. Ana Martinez",
+      "appointmentDate": "2025-02-08",
+      "appointmentTime": "18:05",
+      "status": "agendado"
+    }
+  ],
+  "servicios_medicos": [
+    {
+      "nombre_servicio": "CONSULTAS",
+      "descripcion": "Ofrecemos consultas médicas especializadas con profesionales altamente capacitados, brindando diagnósticos y atención personalizada.",
+      "imagen": "./assets/imgs/appointmentsItem.jpg",
+      "id": "5185"
+    },
+    {
+      "nombre_servicio": "URGENCIAS",
+      "descripcion": "Nuestro servicio de urgencias está disponible las 24 horas del día, brindando atención inmediata y eficiente para cualquier situación médica crítica.",
+      "imagen": "./assets/imgs/emergencyItem.jpg",
+      "id": "b231"
+    },
+    {
+      "nombre_servicio": "ESPECIALIDADES",
+      "descripcion": "  Contamos con una amplia gama de especialidades médicas, desde cardiología hasta pediatría, para ofrecerte atención integral y avanzada.",
+      "imagen": "./assets/imgs/especialityItem.jpg",
+      "id": "436a"
+    },
+    {
+      "nombre_servicio": "EXAMENES Y LABORATORIO",
+      "descripcion": "Contamos con tecnología de primer nivel para la realización de examenes y laboratorios, garantizando la calidad y precisión de nuestros resultados.",
+      "imagen": "./assets/imgs/especialityItem.jpg",
+      "id": "eb66"
+    },
+    {
+      "id": "lala88",
+      "nombre_servicio": "Ambulancia a domicilio ",
+      "descripcion": "SERVICIO DE DOMICILIO A CASA O EN LUGAR DE ACCIDENTE",
+      "imagen": "./assets/imgs/appointmentsItem.jpg"
+    },
+    {
+      "id": "0aa0",
+      "nombre_servicio": "Kinesiologia telematica",
+      "descripcion": "10 sesiones de kine que te orientara en tus ejercicios ",
+      "imagen": "./assets/imgs/emergencyItem.jpg"
+    }
+  ],
+  "doctores": [
+    {
+      "id_doc": "doc_01",
+      "nombre": "Dr. Juan Perez",
+      "especialidad": "Oftalmologia",
+      "descripcion": "Dr. Juan Perez tiene 20 años de experiencia en la salud publica y privada especializandose en Oftalmologia, destacandose por el tratemiento de enfermedades en la retina y cornea.",
+      "imagen": "./assets/imgs/dr_juan_perez.webp",
+      "experiencia": 20,
+      "disponibilidad": "disponible",
+      "informacion_adicional": {
+        "contacto": "+569 1234 5678",
+        "horas_disponibles": "9:00 - 18:00"
+      },
+      "citas_agendadas": [
+        {
+          "id_pac": "pac_01",
+          "fecha": "09-12-2024",
+          "hora_agendada": "10:00",
+          "hora_atendida": "10:30",
+          "tiempo_espera": 30,
+          "tiempo_consulta": 60,
+          "valor_consulta": 30000
+        },
+        {
+          "id_pac": "pac_04",
+          "fecha": "12-12-2024",
+          "hora_agendada": "13:00",
+          "hora_atendida": "13:30",
+          "tiempo_espera": 30,
+          "tiempo_consulta": 60,
+          "valor_consulta": 30000
+        },
+        {
+          "id_pac": "pac_05",
+          "fecha": "10-12-2024",
+          "hora_agendada": "14:00",
+          "hora_atendida": "14:25",
+          "tiempo_espera": 25,
+          "tiempo_consulta": 60,
+          "valor_consulta": 30000
+        }
+      ],
+      "id": "2c31"
+    },
+    {
+      "id_doc": "doc_02",
+      "nombre": "Dra. Maria Gonzalez",
+      "especialidad": "Traumatologia",
+      "descripcion": "La Dra. Maria Gonzalez cuenta con 4 años de experiencia en traumatologia, destacándose en el tratamiento de enfermedades óseas y prevención de lesiones en la columna.",
+      "imagen": "./assets/imgs/dr_maria_gonzalez.webp",
+      "experiencia": 4,
+      "disponibilidad": "disponible",
+      "informacion_adicional": {
+        "contacto": "+569 2345 6789",
+        "horas_disponibles": "10:00 - 17:00"
+      },
+      "citas_agendadas": [
+        {
+          "id_pac": "pac_01",
+          "fecha": "13-12-2024",
+          "hora_agendada": "17:00",
+          "hora_atendida": "17:30",
+          "tiempo_espera": 30,
+          "tiempo_consulta": 60,
+          "valor_consulta": 30000
+        },
+        {
+          "id_pac": "pac_03",
+          "fecha": "12-12-2024",
+          "hora_agendada": "09:00",
+          "hora_atendida": "09:10",
+          "tiempo_espera": 10,
+          "tiempo_consulta": 60,
+          "valor_consulta": 30000
+        },
+        {
+          "id_pac": "pac_04",
+          "fecha": "10-12-2024",
+          "hora_agendada": "09:00",
+          "hora_atendida": "09:20",
+          "tiempo_espera": 20,
+          "tiempo_consulta": 60,
+          "valor_consulta": 30000
+        }
+      ],
+      "id": "60cd"
+    },
+    {
+      "id_doc": "doc_03",
+      "nombre": "Dr. Carlos Ramirez",
+      "especialidad": "Pediatria",
+      "descripcion": "Con más de 12 años de experiencia, el Dr. Carlos Ramirez se dedica al cuidado integral de la salud infantil, combinando un enfoque preventivo y tratamientos avanzados.",
+      "imagen": "./assets/imgs/dr_carlos_ramirez.webp",
+      "experiencia": 12,
+      "disponibilidad": "En vacaciones ",
+      "informacion_adicional": {
+        "contacto": "+569 3456 7890",
+        "horas_disponibles": "8:00 - 15:00"
+      },
+      "id": "10eb"
+    },
+    {
+      "id_doc": "doc_04",
+      "nombre": "Dra. Ana Martinez",
+      "especialidad": "Traumatologia",
+      "descripcion": "Especialista en traumatologia con 3 años de trayectoria, la Dra. Ana Martinez es reconocida por su enfoque innovador tratamiento de huesos y apoyo.",
+      "imagen": "./assets/imgs/dr_maria_gonzalez.webp",
+      "experiencia": 3,
+      "disponibilidad": "disponible",
+      "informacion_adicional": {
+        "contacto": "+569 4567 8901",
+        "horas_disponibles": "12:00 - 18:00"
+      },
+      "id": "cbb3"
+    },
+    {
+      "id_doc": "doc_05",
+      "nombre": "Dr. Ricardo López",
+      "especialidad": "Pediatria",
+      "descripcion": "El Dr. Ricardo López es un experto en pediatria con 15 años de experiencia. Su enfoque incluye el diagnóstico y tratamiento de enfermedades en niños.",
+      "imagen": "./assets/imgs/dr_juan_perez.webp",
+      "experiencia": 15,
+      "disponibilidad": "Sin disponibilidad",
+      "informacion_adicional": {
+        "contacto": "+569 5678 9012",
+        "horas_disponibles": "9:00 - 16:00"
+      },
+      "id": "bfac"
+    },
+    {
+      "id_doc": "doc_06",
+      "nombre": "Dra. Elena Fernández",
+      "especialidad": "Pediatria",
+      "descripcion": "Con 2 años de experiencia, la Dra. Elena Fernández se especializa en el cuidado de la piel y el tratamiento de enfermedades dermatológicas en niños.",
+      "imagen": "./assets/imgs/dr_maria_gonzalez.webp",
+      "experiencia": 2,
+      "disponibilidad": "disponible",
+      "informacion_adicional": {
+        "contacto": "+569 6789 0123",
+        "horas_disponibles": "13:00 - 19:00"
+      },
+      "id": "965e"
+    },
+    {
+      "id": "4f23",
+      "id_doc": "11",
+      "nombre": "PABLO IGNACIO",
+      "especialidad": "aa",
+      "descripcion": "aa",
+      "imagen": "aa",
+      "experiencia": "12",
+      "disponibilidad": "sas",
+      "contacto": "sdadsa",
+      "horas_disponibles": "asda",
+      "informacion_adicional": {
+        "contacto": "sdadsa",
+        "horas_disponibles": "asda"
+      }
+    },
+    {
+      "id": "d7ec",
+      "nombre": "Viviana Arce",
+      "especialidad": "Oftalmologia",
+      "descripcion": "doctora con gran experiencia  ",
+      "imagen": "./assets/imgs/dr_maria_gonzalez.webp",
+      "experiencia": "15",
+      "disponibilidad": "disponible",
+      "contacto": "+56950727028",
+      "horas_disponibles": "10:00 - 19:00",
+      "informacion_adicional": {
+        "contacto": "+56950727028",
+        "horas_disponibles": "10:00 - 19:00"
+      }
+    }
+  ]
+}

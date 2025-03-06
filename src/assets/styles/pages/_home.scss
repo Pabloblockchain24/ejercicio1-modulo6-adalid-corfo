@@ -1,0 +1,71 @@
+@use "../themes/theme-adalid" as colors;
+
+
+
+.home__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__container p{
+    text-align: center;
+}
+
+.hospital-info__section{
+    margin: 40px 0;
+    padding: 20px;
+    background-color: colors.$secondary-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+
+.hospital-info__section p{
+    width: 70%;
+}
+
+.home__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: colors.$white;
+    background-color: colors.$primary-color-button;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: colors.$primary-color-button-hover;
+    }
+  }
+}
+
+.home__user{
+  font-size: 1.1rem;
+  color: colors.$primary-color-button;
+  font-weight: bold;
+  
+  &::after {
+    content:'!!';
+  }
+}
+
+.home__dashboard{
+  background-color: colors.$secondary-color;
+  color: colors.$title-color;
+  padding: 1rem;
+  border: 1px solid rgb(161, 160, 160);
+  &:hover {
+    background-color: colors.$form-color;
+  }
+}

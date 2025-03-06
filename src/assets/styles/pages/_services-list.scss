@@ -1,0 +1,21 @@
+@use "../abstracts/variables" as variables;
+
+.services-list__container, .services__section {
+        padding-inline: variables.$padding-inline-desktop-1820;
+        margin-block: 2rem;
+        .services-list__header {
+                h2 {
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                }
+        }
+
+        .services__list {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                gap: 2rem;
+        }
+}

@@ -1,0 +1,11 @@
+@use "../abstracts/variables" as variables;
+
+
+.doctor-form__container{
+    padding-inline: 30rem;
+
+    textarea{
+        border: 1px solid rgba(128, 128, 128, 0.466);
+        padding: 1rem;
+    }
+}

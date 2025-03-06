@@ -1,0 +1,45 @@
+@use "../themes/theme-adalid" as colors;
+
+.service__card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  max-width: 240px;
+  min-height: 465px;
+  background-color: colors.$white;
+  border: 1px solid colors.$shadow-button-color;
+  box-shadow: 0 4px 6px colors.$secondary-color;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 8px 15px colors.$shadow-color;
+  }
+
+  &__image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: colors.$title-color;
+    margin-bottom: 0.3rem;
+  }
+ &__description{
+  font-size: 0.9rem;
+  color: colors.$title-color;
+  line-height: 1.4;
+ }
+
+}
+
