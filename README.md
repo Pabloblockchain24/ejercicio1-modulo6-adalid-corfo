@@ -111,7 +111,7 @@ Se han implementado media queries en varios de los archivos parciales para asegu
 Estos breakpoints se aplican en las secciones necesarias, como el layout y los componentes, para que el sitio funcione correctamente en diferentes tamaños de pantalla.
 
 
-## Uso de lighthouse para verificar rendimiento
+## Uso de lighthouse para verificar rendimiento offline
 
-![Rendimiento PWA en lighthouse ](/public/assets/imgs/lighthouse.jpg)
+![Rendimiento PWA en lighthouse ](/public/assets/imgs/lighthouse-offline.jpg)
 
